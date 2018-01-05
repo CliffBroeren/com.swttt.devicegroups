@@ -29,7 +29,7 @@ class DeviceGroupDevice extends Homey.Device {
         this.error(err);
         return Promise.reject();
       }
-    }, 1000);
+    }, 1500);
 
   }
   // this method is called when the Device is added
